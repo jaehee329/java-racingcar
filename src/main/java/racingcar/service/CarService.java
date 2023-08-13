@@ -8,6 +8,7 @@ import racingcar.domain.Car;
 import racingcar.repository.CarRepository;
 
 public class CarService {
+
 	private final List<Car> cars = CarRepository.getCars();
 	private final NumberGenerator numberGenerator;
 

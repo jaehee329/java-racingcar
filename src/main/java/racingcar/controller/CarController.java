@@ -10,7 +10,7 @@ import racingcar.view.InputView;
 import racingcar.view.OutputView;
 
 public class CarController {
-
+  
 	public void playGame() {
 		retryInitCarNames();
 		int roundCount = retryReadingRoundCount();
